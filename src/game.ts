@@ -18,7 +18,7 @@ export class Game {
     move(line: string): string {
         const move = parseMove(line);
         if (!move) {
-            return 'Invalid input, please use format like "e2 e4" or "2,3 3,3" or "e2,e4"';
+            return 'Invalid input, please use format like "2,3 3,3" or "e2,e4"';
         }
 
         const response = applyMove(this.board, move.from, move.to, this.turn);

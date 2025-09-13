@@ -54,25 +54,5 @@ export function parseMove(line: string): Move | null {
         }
     }
 
-    // format algebraic with space "e2 e4"
-    m = s.match(/^([a-h])([1-8])\s+([a-h])([1-8])$/i);
-    if (m) {
-        console.log('xxx',m[2]!);
-        const c1 = fileToCol(m[1]!)
-        const r1 = rankToRow(+m[2]!)
-        const c2 = fileToCol(m[3]!)
-        const r2 = rankToRow(+m[4]!)
-        return {
-            from: {
-                r: r1,
-                c: c1
-            },
-            to: {
-                r: r2,
-                c: c2
-            }
-        }
-    }
-
     return null;
 }

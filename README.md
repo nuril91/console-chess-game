@@ -10,16 +10,19 @@ npm run start
 
 The program will display the board and a turn prompt:
 
-    Console Chess ... (Ctrl+C or type q to quit)
+    Console Chess ... (Ctrl+C to quit)
     White>
 
-Enter moves in **one** of these formats:
-- **Numeric (1-based):** `row,col row,col`  
-  Example: `2,5 4,5`
-- **Algebraic:** `e2 e4` or `e2,e4`
+## Screenshot
+![alt text](board.JPG)
 
-If the move is legal, the board updates and the turn switches.  
+Enter moves in **one** of these formats:
+- **Numeric (1-based):** `col,rank col,rank`
+  Example: `2,5 4,5`
+- **Algebraic:** `e2,e4`
+
+If the move is legal, the board updates and the turn switches.
 **The game ends** when a king is captured.
 
 ### Exit
-Press **Ctrl + C** or type `q` / `quit`.
+Press **Ctrl + C**.

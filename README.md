@@ -1,9 +1,24 @@
 # Console Chess - How to Run & Play
 
+## Prerequisites
+- Node.js **18+** (20+ recommended)
+- npm
+
 ## Run
 ```bash
 npm install
 npm run start
+```
+
+## Run Test
+```bash
+#run all test
+npm test
+
+#run test for specific unit test file
+npm run test -- .\tests\win.test.ts
+npm run test -- .\tests\board.test.ts
+npm run test -- .\tests\moves.test.ts
 ```
 
 ## How to Play (CLI)

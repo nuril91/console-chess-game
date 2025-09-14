@@ -1,4 +1,4 @@
-# Console Chess — How to Run & Play
+# Console Chess - How to Run & Play
 
 ## Run
 ```bash

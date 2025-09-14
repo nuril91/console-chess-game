@@ -11,7 +11,7 @@ npm run start
 The program will display the board and a turn prompt:
 
     Console Chess ... (Ctrl+C to quit)
-    White>
+    White> e2,e4
 
 ## Screenshot
 ![alt text](board.JPG)
